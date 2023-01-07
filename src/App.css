@@ -19,8 +19,8 @@
 :root {
   font-family: 'Lato', sans-serif;
 
-  --color-primary: #ec4c8a;
-  --color-primary-dark: #b21451;
+  --color-primary: #e84a87;
+  --color-primary-dark: #d04378;
   --color-primary-light: #cf4278;
 }
 
@@ -40,14 +40,42 @@ p {
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-  height: 100px;
-}
-
 .container {
   width: 100%;
   margin: 0 auto;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image img {
+  width: 50%;
+  display: flex;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 0;
+  width: 100%;
+  color: #fff;
+}
+
+.country-info p {
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
+
+.country-info:nth-child(2n + 1) {
+  background-color: var(--color-primary-dark);
 }
 
 @media (max-width: 768px) {
@@ -66,6 +94,7 @@ img {
     margin: 0;
     padding: 0;
     height: 200px;
+    color: rgb(232, 232, 232);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -84,6 +113,9 @@ img {
   .details {
     display: flex;
     flex-direction: column;
+    margin: 10px;
+    align-items: end;
+    width: 90%;
   }
 
   .home-header {
@@ -135,9 +167,7 @@ img {
   }
 
   .details-page-details img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 50%;
   }
 
   .state-details {
@@ -162,6 +192,16 @@ img {
     background: transparent;
     border: none;
     color: #fff;
+  }
+
+  .details-top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
   }
 }
 
@@ -181,6 +221,7 @@ img {
     margin: 0;
     padding: 0;
     height: 200px;
+    color: rgb(232, 232, 232);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -198,6 +239,9 @@ img {
   .details {
     display: flex;
     flex-direction: column;
+    margin: 10px;
+    align-items: end;
+    width: 90%;
   }
 
   .home-header {
@@ -249,7 +293,7 @@ img {
   }
 
   .details-page-details img {
-    width: 50%;
+    width: 25%;
     height: 100%;
     object-fit: cover;
   }
@@ -276,5 +320,15 @@ img {
     background: transparent;
     border: none;
     color: #fff;
+  }
+
+  .details-top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
   }
 }

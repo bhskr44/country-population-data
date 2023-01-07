@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Travelers' Hub <a name="about-project"></a>
+# 📖 Country Population Data <a name="about-project"></a>
 
 This is a web application that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 

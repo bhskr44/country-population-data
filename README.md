@@ -1,29 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <!-- TABLE OF CONTENTS -->
 
@@ -222,7 +198,7 @@ Give a ⭐️ If you like this project...
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank Microverse for the project inspiration.
+I would like to thank Microverse for the project inspiration. Also would like to Thank  [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)). for this design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

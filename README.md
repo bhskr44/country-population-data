@@ -108,7 +108,7 @@ Install nodejs
 Clone this repository to your desired folder:
 
 ```sh
-git clone https://github.com/bhskr44/air-population-data.git
+git clone https://github.com/bhskr44/country-population-data.git
 ```
 
 ### Install
@@ -116,7 +116,7 @@ git clone https://github.com/bhskr44/air-population-data.git
 Install this project with:
 
 ```sh
-cd air-population-data
+cd country-population-data
 npm install
 ```
 

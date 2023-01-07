@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import { useSelector, useDispatch } from 'react-redux';
 import getCountries from '../redux/api';
 import CountriesList from './ContriesList';
@@ -8,8 +9,6 @@ const Homepage = () => {
   const countries = useSelector((state) => state.countries.countries);
 
   const [searchItem, setSearchItem] = useState('');
-
-  console.log(countries);
 
   useEffect(() => {
     if (countries.length === 0) {
@@ -29,14 +28,22 @@ const Homepage = () => {
 
   return (
     <div>
-      <h1>Where in the World</h1>
-      <input
-        type="text"
-        name="searchItem"
-        placeholder="search for a country"
-        value={searchItem}
-        onChange={handleSearch}
-      />
+      <header className="home-header">
+        <div className="logo">
+          <TravelExploreIcon className="svg_icons" />
+        </div>
+        <div className="search">
+          {' '}
+          <input
+            type="text"
+            name="searchItem"
+            placeholder="search for a country"
+            value={searchItem}
+            onChange={handleSearch}
+          />
+        </div>
+      </header>
+
       {searchItem.length ? (
         <CountriesList countries={newCountries} />
       ) : (

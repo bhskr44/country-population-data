@@ -1,7 +1,6 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const DetailsPage = () => {
   const location = useLocation();
@@ -10,9 +9,12 @@ const DetailsPage = () => {
   return (
     <div className="details-page">
       <header className="home-header">
-        <div className="logo" onClick={() => navigate(-1)}>
-          <ArrowBackIcon />
-          Back
+        <div className="logo">
+          <button type="button" className="btn-logo" onClick={() => navigate(-1)}>
+            {' '}
+            <ArrowBackIcon />
+            Go back
+          </button>
         </div>
       </header>
       <div className="details-page-details">

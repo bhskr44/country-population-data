@@ -107,6 +107,8 @@ This is a web application that provides commercial and scientific space travel s
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
+- [Presentation Link](https://www.loom.com/share/4057cf8fbe6f4ffb984682b51b5139ab)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->

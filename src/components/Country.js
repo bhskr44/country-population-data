@@ -25,9 +25,6 @@ const Country = ({ data }) => {
           Capital:
           <span>{data.capital}</span>
         </p>
-        {/* <p>.</p>
-      <p>.</p>
-      <p>click for more details</p> */}
       </div>
     </button>
   );

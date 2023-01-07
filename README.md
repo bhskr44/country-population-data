@@ -81,7 +81,7 @@ This is a web application that provides commercial and scientific space travel s
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](https://country-population.onrender.com/)
+- [Live Demo Link](https://63b9b9ce5949684d5df52e43--magenta-raindrop-eb2c36.netlify.app/)
 
 - [Presentation Link](https://www.loom.com/share/4057cf8fbe6f4ffb984682b51b5139ab)
 

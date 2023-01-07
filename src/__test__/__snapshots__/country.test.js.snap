@@ -49,11 +49,15 @@ Object {
             class="country"
             type="button"
           >
-            <img
-              alt="Country Flag"
-              class="country-img"
-              src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
-            />
+            <div
+              class="image"
+            >
+              <img
+                alt="Country Flag"
+                class="country-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
+              />
+            </div>
             <div
               class="details"
             >
@@ -66,29 +70,21 @@ Object {
                   40218234
                 </span>
               </p>
-              <p>
-                Continent:
-                <span>
-                  Asia
-                </span>
-              </p>
-              <p>
-                Capital:
-                <span>
-                  Kabul
-                </span>
-              </p>
             </div>
           </button>
           <button
             class="country"
             type="button"
           >
-            <img
-              alt="Country Flag"
-              class="country-img"
-              src="https://flagcdn.com/ax.svg"
-            />
+            <div
+              class="image"
+            >
+              <img
+                alt="Country Flag"
+                class="country-img"
+                src="https://flagcdn.com/ax.svg"
+              />
+            </div>
             <div
               class="details"
             >
@@ -99,18 +95,6 @@ Object {
                 Population:
                 <span>
                   28875
-                </span>
-              </p>
-              <p>
-                Continent:
-                <span>
-                  Europe
-                </span>
-              </p>
-              <p>
-                Capital:
-                <span>
-                  Mariehamn
                 </span>
               </p>
             </div>
@@ -164,11 +148,15 @@ Object {
           class="country"
           type="button"
         >
-          <img
-            alt="Country Flag"
-            class="country-img"
-            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
-          />
+          <div
+            class="image"
+          >
+            <img
+              alt="Country Flag"
+              class="country-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
+            />
+          </div>
           <div
             class="details"
           >
@@ -181,29 +169,21 @@ Object {
                 40218234
               </span>
             </p>
-            <p>
-              Continent:
-              <span>
-                Asia
-              </span>
-            </p>
-            <p>
-              Capital:
-              <span>
-                Kabul
-              </span>
-            </p>
           </div>
         </button>
         <button
           class="country"
           type="button"
         >
-          <img
-            alt="Country Flag"
-            class="country-img"
-            src="https://flagcdn.com/ax.svg"
-          />
+          <div
+            class="image"
+          >
+            <img
+              alt="Country Flag"
+              class="country-img"
+              src="https://flagcdn.com/ax.svg"
+            />
+          </div>
           <div
             class="details"
           >
@@ -214,18 +194,6 @@ Object {
               Population:
               <span>
                 28875
-              </span>
-            </p>
-            <p>
-              Continent:
-              <span>
-                Europe
-              </span>
-            </p>
-            <p>
-              Capital:
-              <span>
-                Mariehamn
               </span>
             </p>
           </div>

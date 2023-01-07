@@ -114,7 +114,7 @@ p {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    align-items: end;
+    align-items: flex-end;
     width: 90%;
   }
 
@@ -240,7 +240,7 @@ p {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    align-items: end;
+    align-items: flex-end;
     width: 90%;
   }
 

@@ -3,7 +3,11 @@ import Country from './Country';
 
 const ContriesList = ({ countries }) => (
   <div className="countries-grid">
-    { countries.map((countryData) => <Country data={countryData} key={countryData.name} />) }
+    <div className="country" />
+    <div className="country" />
+    {countries.map((countryData) => (
+      <Country data={countryData} key={countryData.name} />
+    ))}
   </div>
 );
 
